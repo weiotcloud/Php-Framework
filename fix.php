@@ -13,8 +13,7 @@
  | |  | | |__| | |\  |____) |  | |  | |____| | \ \
  |_|  |_|\____/|_| \_|_____/   |_|  |______|_|  \_\
  * Developer    :   Cengiz AKCAN
- * Github       :   Fix
- * Version      :   Fix
+ * Github       :   github.com/thevobos 
 */
 
 define("_MAIN_",dirname(__FILE__));
