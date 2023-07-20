@@ -1,0 +1,45 @@
+{
+  "name": "weiot/phpsframework",
+  "type": "project",
+  "description": "WeIOT Custom Frameowrk for Apps",
+  "keywords": ["Framework","WeIOT Framework","WeIOT"],
+  "homepage": "https://weiot.cloud/",
+  "license": "MIT",
+  "authors":
+  [
+    {
+      "name":     "Cengiz AKCAN",
+      "email":    "cengiz@vobo.company",
+      "homepage": "https://vobo.company",
+      "role":     "Core Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Fix\\": "Fix/",
+      "FixInternal\\": "Fix/Packages//",
+      "App\\": "App/"
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "config": {
+    "vendor-dir": "Fix/External",
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "optimize-autoloader": true,
+  "require": {
+    "filp/whoops": "^2.14",
+    "firebase/php-jwt": "v6.1.0",
+    "illuminate/database": "^7.1.3",
+    "staudenmeir/eloquent-json-relations": "^1.1",
+    "weiot/phpsdk": "dev-main",
+    "ext-json": "*"
+  }
+}
